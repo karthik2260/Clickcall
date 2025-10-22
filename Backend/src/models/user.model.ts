@@ -2,7 +2,6 @@ import mongoose, {Schema,Document,Model} from "mongoose";
 import { User } from "../interfaces/commoninterfaces";
 
 
-
 export interface UserDocument extends User, Document {
     _id: mongoose.Types.ObjectId
 }
